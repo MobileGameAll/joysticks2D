@@ -16,7 +16,7 @@ public class Joystick2DController : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
-        Vector2 moveVec = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * moveForce, CrossPlatformInputManager.GetAxis("Vertical") * moveForce);
-        body.AddForce(moveVec);
+        Vector2 moveVector = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal") * moveForce, CrossPlatformInputManager.GetAxis("Vertical") * moveForce);
+        body.AddForce(moveVector);
 	}
 }
