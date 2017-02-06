@@ -10,6 +10,7 @@ public class Joystick2DController : MonoBehaviour {
 
 	// Use this for initialization
 	//Alterado da web
+    //Alterado na aula
 	void Start () {
         this.body = GetComponent<Rigidbody2D>();
 	}
