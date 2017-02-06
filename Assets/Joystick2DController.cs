@@ -9,6 +9,7 @@ public class Joystick2DController : MonoBehaviour {
     public float moveForce = 5;
 
 	// Use this for initialization
+	//Alterado da web
 	void Start () {
         this.body = GetComponent<Rigidbody2D>();
 	}
